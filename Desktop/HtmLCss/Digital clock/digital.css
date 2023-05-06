@@ -29,6 +29,7 @@ h2 {
 
 .clock div {
     margin: 5px;
+    position: relative;
 }
 
 .clock span {
@@ -55,4 +56,15 @@ h2 {
     justify-content: center;
     background: rgba(245, 242, 242, 0.2);
     letter-spacing: 4px;
+}
+
+.clock .ampm {
+    position: absolute;
+    top: 0;
+    height: 50px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(1, 58, 23, 0.5);
 }
