@@ -58,6 +58,13 @@ h2 {
     background: rgba(245, 242, 242, 0.2);
     letter-spacing: 4px;
 }
+#day {
+    font-size: 40px;
+    height: fit-content;
+    width: fit-content;
+    color: #fff;
+    text-shadow: 2px 2px 6px rgba(255, 255, 255, 1);
+}
 
 .clock .ampm {
     position: absolute;

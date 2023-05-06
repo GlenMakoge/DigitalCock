@@ -2,11 +2,18 @@ const hourEl = document.getElementById("hour");
 const minuteEl = document.getElementById("minutes");
 const secondEl = document.getElementById("seconds");
 const ampmEl = document.getElementById("ampm");
+const dayEl = document.getElementById("day");
+
+const weekDay = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+const d = new Date();
+
 
 function updateClock() {
     let h = new Date().getHours()
     let m = new Date().getMinutes()
     let s = new Date().getSeconds()
+    let day = weekDay[d.getDate()];
+    document.getElementById("day").innerText = day;
     let ampm = "AM";
 
     if(h > 12) {
