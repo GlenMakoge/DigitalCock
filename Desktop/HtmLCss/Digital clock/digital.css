@@ -11,6 +11,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;
 }
 
 h2 {
@@ -61,6 +62,7 @@ h2 {
 .clock .ampm {
     position: absolute;
     top: 0;
+    width: 50px;
     height: 50px;
     font-size: 30px;
     display: flex;
